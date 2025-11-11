@@ -10,3 +10,9 @@ About Dataset:
 This dataset contains high-quality microscopic images of water samples with visible microplastic particles. Each image is annotated and categorized based on the type, size, and shape of the microplastics, making it suitable for training image classification or object detection models for environmental monitoring.
 
 Source: Kaggle – Microplastic Dataset for Computer Vision
+
+⚙️ Model Training:
+
+The dataset was trained using Google Teachable Machine, an interactive platform that allows building AI models without coding. The training process involved uploading categorized images (microplastic-present and clean-water samples), setting the appropriate parameters, and optimizing the model’s performance for accurate classification.
+
+After achieving satisfactory accuracy, the trained model module was successfully exported and downloaded from Teachable Machine for further integration into a real-time web-based detection system.
